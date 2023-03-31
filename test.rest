@@ -1,3 +1,57 @@
 https://fine-puce-vulture-garb.cyclic.app/Dfabrica
 ###
 https://fine-puce-vulture-garb.cyclic.app/users
+###
+https://extinct-boa-zipper.cyclic.app/Dfabrica
+###
+
+POST https://extinct-boa-zipper.cyclic.app/Dfabrica
+Content-Type: application/json
+
+{
+  
+  "name": "Test from .rest file",
+  "image1": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663674-6.jpg",
+  "image2": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663658-3.jpg",
+  "image3": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663669-5.jpg",
+  "image4": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663664-4.jpg",
+  "price-inr": 3499,
+  "price-usd": 44,
+  "price-pound": 35,
+  "discount": 70,
+  "description": "[`Relaxed fit - Fits just right, not too tight not too loose`,`100% Nylon fabric is strong, durable and lightweight.`]",
+  "sex": "F",
+  "category": "Winterwear",
+  "stock": 31,
+  "size": "[S,M,L,XL,XXL]",
+  "rating": 3.9,
+  "color": "pink"
+}
+###
+https://dfabrica-data-app.onrender.com/products
+###
+POST https://dfabrica-data-app.onrender.com/products
+Content-Type: application/json
+
+{
+  
+  "name": "Test2 from .rest file",
+  "image1": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663674-6.jpg",
+  "image2": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663658-3.jpg",
+  "image3": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663669-5.jpg",
+  "image4": "https://images.bewakoof.com/t1080/women-s-rose-solid-puffer-jackets-498989-1665663664-4.jpg",
+  "price-inr": 3499,
+  "price-usd": 44,
+  "price-pound": 35,
+  "discount": 70,
+  "description": "[`Relaxed fit - Fits just right, not too tight not too loose`,`100% Nylon fabric is strong, durable and lightweight.`]",
+  "sex": "F",
+  "category": "Winterwear",
+  "stock": 31,
+  "size": "[S,M,L,XL,XXL]",
+  "rating": 3.9,
+  "color": "pink"
+}
+
+###
+DELETE https://dfabrica-data-app.onrender.com/products/KnLEE9v

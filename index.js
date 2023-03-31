@@ -1,8 +1,8 @@
 let totalCustomer = document.getElementById("totalCustomers");
 let totalProducts = document.getElementById("totalProducts");
 
-let APIURLUSERS = "https://fine-puce-vulture-garb.cyclic.app/users";
-let APIURLPRODUCTS = "https://fine-puce-vulture-garb.cyclic.app/Dfabrica";
+let APIURLUSERS = "";
+let APIURLPRODUCTS = "https://dfabrica-data-app.onrender.com/products";
 // let producrTotalData;
 // let userTotalData;
 async function productData() {
