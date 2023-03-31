@@ -1,10 +1,9 @@
-let totalCustomer = document.getElementById("totalCustomers");
+let totalCustomers = document.getElementById("totalCustomers");
 let totalProducts = document.getElementById("totalProducts");
 
-let APIURLUSERS = "";
+let APIURLUSERS = "https://dfabrica-data-app.onrender.com/users";
 let APIURLPRODUCTS = "https://dfabrica-data-app.onrender.com/products";
-// let producrTotalData;
-// let userTotalData;
+
 async function productData() {
   try {
     let res = await fetch(APIURLPRODUCTS);
@@ -24,10 +23,8 @@ async function userData() {
     let data = await res.json();
     let userTotalData = data.length;
     // console.log(userTotalData);
-    totalCustomer.innerText = userTotalData;
+    totalCustomers.innerText = userTotalData;
   } catch (error) {
     console.log(error);
   }
 }
-
-// console.log(producrTotalData, userTotalData);
